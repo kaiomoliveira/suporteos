@@ -1,0 +1,58 @@
+2024-09-07T00:17:29.333-03:00  INFO 44884 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 17.0.6 with PID 44884 (C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by LM in C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2024-09-07T00:17:29.370-03:00  INFO 44884 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "test"
+2024-09-07T00:17:29.899-03:00  INFO 44884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-07T00:17:29.900-03:00  INFO 44884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-07T00:17:32.589-03:00  INFO 44884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-07T00:17:32.750-03:00  INFO 44884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 2 JPA repository interfaces.
+2024-09-07T00:17:36.347-03:00  INFO 44884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-07T00:17:36.586-03:00  INFO 44884 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-07T00:17:36.588-03:00  INFO 44884 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07T00:17:37.123-03:00  INFO 44884 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-07T00:17:37.125-03:00  INFO 44884 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7222 ms
+2024-09-07T00:17:37.252-03:00  INFO 44884 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-07T00:17:37.841-03:00  INFO 44884 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cursosbd user=SA
+2024-09-07T00:17:37.844-03:00  INFO 44884 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-07T00:17:37.947-03:00  INFO 44884 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cursosbd'
+2024-09-07T00:17:38.529-03:00  INFO 44884 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-07T00:17:38.713-03:00  INFO 44884 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-07T00:17:38.880-03:00  INFO 44884 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-07T00:17:39.832-03:00  INFO 44884 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-07T00:17:42.753-03:00  INFO 44884 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-07T00:17:42.904-03:00  INFO 44884 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-07T00:17:44.700-03:00  WARN 44884 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-07T00:17:45.803-03:00  INFO 44884 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-07T00:17:45.903-03:00  INFO 44884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07T00:17:45.970-03:00  INFO 44884 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 19.247 seconds (process running for 21.704)
+2024-09-07T00:17:45.995-03:00  INFO 44884 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-07T00:17:46.091-03:00  WARN 44884 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-07T00:17:46.093-03:00  INFO 44884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-07T00:17:46.101-03:00  INFO 44884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-07T00:18:04.297-03:00  INFO 43640 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 17.0.6 with PID 43640 (C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by LM in C:\Users\LM\Desktop\FEF\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2024-09-07T00:18:04.308-03:00  INFO 43640 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "test"
+2024-09-07T00:18:04.697-03:00  INFO 43640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-07T00:18:04.698-03:00  INFO 43640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-07T00:18:07.344-03:00  INFO 43640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-07T00:18:07.580-03:00  INFO 43640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 2 JPA repository interfaces.
+2024-09-07T00:18:11.118-03:00  INFO 43640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-07T00:18:11.156-03:00  INFO 43640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-07T00:18:11.157-03:00  INFO 43640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07T00:18:11.399-03:00  INFO 43640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-07T00:18:11.400-03:00  INFO 43640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6700 ms
+2024-09-07T00:18:11.504-03:00  INFO 43640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-07T00:18:12.098-03:00  INFO 43640 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cursosbd user=SA
+2024-09-07T00:18:12.103-03:00  INFO 43640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-07T00:18:12.138-03:00  INFO 43640 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cursosbd'
+2024-09-07T00:18:12.709-03:00  INFO 43640 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-07T00:18:12.969-03:00  INFO 43640 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-07T00:18:13.063-03:00  INFO 43640 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-07T00:18:13.972-03:00  INFO 43640 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-07T00:18:16.844-03:00  INFO 43640 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-07T00:18:17.005-03:00  INFO 43640 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-07T00:18:18.501-03:00  WARN 43640 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-07T00:18:19.538-03:00  INFO 43640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-07T00:18:19.650-03:00  INFO 43640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07T00:18:19.694-03:00  INFO 43640 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 16.882 seconds (process running for 18.425)
+2024-09-07T00:19:31.672-03:00  INFO 43640 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-07T00:19:31.700-03:00  WARN 43640 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-09-07T00:19:31.702-03:00  INFO 43640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-07T00:19:31.708-03:00  INFO 43640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
