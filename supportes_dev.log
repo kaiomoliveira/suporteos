@@ -1,0 +1,1503 @@
+2025-05-25T19:39:11.773-03:00  WARN 20840 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h37s89ms990µs200ns).
+2025-05-25T21:44:53.063-03:00  INFO 20840 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2025-05-25T21:44:53.244-03:00  INFO 20840 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:44:53.266-03:00  INFO 20840 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-25T21:44:53.559-03:00  INFO 20840 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-25T21:45:39.896-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 20840 (C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:45:39.898-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
+2025-05-25T21:45:40.382-03:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-25T21:45:40.389-03:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-05-25T21:45:40.913-03:00  INFO 20840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-25T21:45:40.916-03:00  INFO 20840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-25T21:45:40.917-03:00  INFO 20840 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2025-05-25T21:45:41.003-03:00  INFO 20840 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-25T21:45:41.003-03:00  INFO 20840 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1094 ms
+2025-05-25T21:45:41.059-03:00  INFO 20840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-05-25T21:45:41.334-03:00  INFO 20840 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@1f20880d
+2025-05-25T21:45:41.334-03:00  INFO 20840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-05-25T21:45:41.335-03:00  INFO 20840 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/cursodb'
+2025-05-25T21:45:41.389-03:00  INFO 20840 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-25T21:45:41.398-03:00  INFO 20840 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-25T21:45:41.421-03:00  INFO 20840 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-25T21:45:41.440-03:00  WARN 20840 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 9.5.25 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2025-05-25T21:45:41.500-03:00  INFO 20840 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-25T21:45:41.500-03:00  INFO 20840 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:45:41.684-03:00  WARN 20840 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-25T21:45:42.198-03:00  INFO 20840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-25T21:45:42.250-03:00  INFO 20840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-25T21:45:42.257-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 2.488 seconds (process running for 179098.878)
+2025-05-25T21:45:42.260-03:00  INFO 20840 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-05-25T21:46:00.121-03:00  INFO 20840 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 39 class path changes (39 additions, 0 deletions, 0 modifications)
+2025-05-25T21:46:00.141-03:00  INFO 20840 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:46:00.142-03:00  INFO 20840 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-05-25T21:46:00.152-03:00  INFO 20840 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-05-25T21:46:00.380-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 20840 (C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:46:00.381-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
+2025-05-25T21:46:00.931-03:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-25T21:46:00.985-03:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
+2025-05-25T21:46:00.989-03:00  WARN 20840 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2025-05-25T21:46:01.001-03:00  INFO 20840 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-25T21:46:01.070-03:00 ERROR 20840 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.3.3.jar:3.3.3]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
+	at com.curso.suporteos.SuporteosApplication.main(SuporteosApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.3.jar:3.3.3]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.curso.config.SwaggerConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@167c82ea]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.12.jar:6.1.12]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.1.12.jar:6.1.12]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:750) ~[spring-beans-6.1.12.jar:6.1.12]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:749) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247) ~[spring-boot-autoconfigure-3.3.3.jar:3.3.3]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240) ~[spring-boot-autoconfigure-3.3.3.jar:3.3.3]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230) ~[spring-boot-autoconfigure-3.3.3.jar:3.3.3]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183) ~[spring-boot-autoconfigure-3.3.3.jar:3.3.3]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158) ~[spring-boot-autoconfigure-3.3.3.jar:3.3.3]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.3.3.jar:3.3.3]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: io/swagger/v3/oas/models/OpenAPI
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.12.jar:6.1.12]
+	... 36 common frames omitted
+Caused by: java.lang.ClassNotFoundException: io.swagger.v3.oas.models.OpenAPI
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.3.jar:3.3.3]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 40 common frames omitted
+
+2025-05-25T21:46:49.632-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 21232 (C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:46:49.639-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
+2025-05-25T21:46:49.896-03:00  INFO 21232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-25T21:46:49.897-03:00  INFO 21232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-25T21:46:51.683-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-25T21:46:51.957-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 251 ms. Found 6 JPA repository interfaces.
+2025-05-25T21:46:54.977-03:00  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-25T21:46:55.023-03:00  INFO 21232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-25T21:46:55.025-03:00  INFO 21232 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2025-05-25T21:46:55.181-03:00  INFO 21232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-25T21:46:55.183-03:00  INFO 21232 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5284 ms
+2025-05-25T21:46:55.276-03:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-25T21:46:55.654-03:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@49dd1b96
+2025-05-25T21:46:55.658-03:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-25T21:46:55.683-03:00  INFO 21232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/cursodb'
+2025-05-25T21:46:56.000-03:00  INFO 21232 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-25T21:46:56.185-03:00  INFO 21232 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-05-25T21:46:56.323-03:00  INFO 21232 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-25T21:46:57.457-03:00  INFO 21232 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-25T21:46:57.663-03:00  WARN 21232 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 9.5.25 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2025-05-25T21:47:01.242-03:00  INFO 21232 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-25T21:47:01.300-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       drop constraint if exists FKi5yvhrylfahu81aotf8qxjqai
+2025-05-25T21:47:01.311-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists produto 
+       drop constraint if exists FKdupgm9x214hsg0i5cpu30dj16
+2025-05-25T21:47:01.313-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       drop constraint if exists FKqxydic98aujtnowrwkeaai5o4
+2025-05-25T21:47:01.315-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       drop constraint if exists FKfpffyyqpwj6cacsy1djblhuar
+2025-05-25T21:47:01.318-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists technician 
+       drop constraint if exists FKqalpa6q6hblsw7vbvqxar173i
+2025-05-25T21:47:01.320-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists users 
+       drop constraint if exists FKd21kkcigxa21xuby5i3va9ncs
+2025-05-25T21:47:01.322-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists grupoproduto cascade
+2025-05-25T21:47:01.329-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists perfis cascade
+2025-05-25T21:47:01.333-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists person cascade
+2025-05-25T21:47:01.346-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists produto cascade
+2025-05-25T21:47:01.356-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists serviceorder cascade
+2025-05-25T21:47:01.365-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists technician cascade
+2025-05-25T21:47:01.371-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists users cascade
+2025-05-25T21:47:01.377-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_grupoproduto
+2025-05-25T21:47:01.381-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_person
+2025-05-25T21:47:01.384-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_produto
+2025-05-25T21:47:01.399-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_grupoproduto start with 1 increment by 50
+2025-05-25T21:47:01.407-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_person start with 1 increment by 50
+2025-05-25T21:47:01.415-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_produto start with 1 increment by 50
+2025-05-25T21:47:01.429-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table grupoproduto (
+        id integer not null,
+        status smallint check (status between 0 and 1),
+        descricao varchar(255) not null,
+        primary key (id)
+    )
+2025-05-25T21:47:01.445-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table perfis (
+        person_type integer,
+        person_id bigint not null
+    )
+2025-05-25T21:47:01.451-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table person (
+        create_at date,
+        id bigint not null,
+        cpf varchar(255) unique,
+        email varchar(255) unique,
+        first_name varchar(255),
+        last_name varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2025-05-25T21:47:01.552-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table produto (
+        data_cadastro date,
+        idgrupoproduto integer,
+        saldo_estoque numeric(18,3) not null,
+        status smallint check (status between 0 and 1),
+        valor_estoque numeric(18,3) not null,
+        valor_unitario numeric(18,3) not null,
+        id_produto bigint not null,
+        codigo_barra varchar(255) not null,
+        descricao varchar(255) not null,
+        primary key (id_produto)
+    )
+2025-05-25T21:47:01.584-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table serviceorder (
+        end_date date,
+        order_priority smallint check (order_priority between 0 and 2),
+        order_status smallint check (order_status between 0 and 1),
+        star_date date,
+        idtechnician bigint,
+        iduser bigint,
+        id uuid not null,
+        description varchar(255),
+        titleos varchar(255),
+        primary key (id)
+    )
+2025-05-25T21:47:01.612-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table technician (
+        person_id bigint not null,
+        primary key (person_id)
+    )
+2025-05-25T21:47:01.622-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table users (
+        person_id bigint not null,
+        primary key (person_id)
+    )
+2025-05-25T21:47:01.634-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       add constraint FKi5yvhrylfahu81aotf8qxjqai 
+       foreign key (person_id) 
+       references person
+2025-05-25T21:47:01.641-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists produto 
+       add constraint FKdupgm9x214hsg0i5cpu30dj16 
+       foreign key (idgrupoproduto) 
+       references grupoproduto
+2025-05-25T21:47:01.646-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       add constraint FKqxydic98aujtnowrwkeaai5o4 
+       foreign key (idtechnician) 
+       references technician
+2025-05-25T21:47:01.651-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       add constraint FKfpffyyqpwj6cacsy1djblhuar 
+       foreign key (iduser) 
+       references users
+2025-05-25T21:47:01.655-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists technician 
+       add constraint FKqalpa6q6hblsw7vbvqxar173i 
+       foreign key (person_id) 
+       references person
+2025-05-25T21:47:01.659-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists users 
+       add constraint FKd21kkcigxa21xuby5i3va9ncs 
+       foreign key (person_id) 
+       references person
+2025-05-25T21:47:01.671-03:00  INFO 21232 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:47:02.922-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_grupoproduto')
+2025-05-25T21:47:03.063-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        grupoproduto
+        (descricao, status, id) 
+    values
+        (?, ?, ?)
+2025-05-25T21:47:03.092-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_grupoproduto')
+2025-05-25T21:47:03.095-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        grupoproduto
+        (descricao, status, id) 
+    values
+        (?, ?, ?)
+2025-05-25T21:47:03.098-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_produto')
+2025-05-25T21:47:03.105-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:47:03.111-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_produto')
+2025-05-25T21:47:03.115-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:47:03.120-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:47:03.125-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:47:03.133-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_person')
+2025-05-25T21:47:03.145-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:47:03.151-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        technician
+        (person_id) 
+    values
+        (?)
+2025-05-25T21:47:03.160-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:47:03.164-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:47:03.170-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_person')
+2025-05-25T21:47:03.174-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:47:03.176-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (person_id) 
+    values
+        (?)
+2025-05-25T21:47:03.182-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:47:03.188-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:47:03.190-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (person_id) 
+    values
+        (?)
+2025-05-25T21:47:03.193-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:47:03.200-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        serviceorder
+        (description, end_date, order_priority, order_status, star_date, idtechnician, titleos, iduser, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:47:03.934-03:00  WARN 21232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-25T21:47:05.173-03:00  INFO 21232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-25T21:47:05.314-03:00  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-25T21:47:05.348-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 17.165 seconds (process running for 20.792)
+2025-05-25T21:47:18.576-03:00  INFO 21232 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-25T21:47:18.577-03:00  INFO 21232 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-25T21:47:18.580-03:00  INFO 21232 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-05-25T21:47:22.676-03:00  INFO 21232 --- [http-nio-8081-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1161 ms
+2025-05-25T21:51:30.608-03:00  INFO 21232 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-05-25T21:51:30.629-03:00  INFO 21232 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:51:30.635-03:00  INFO 21232 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-25T21:51:30.642-03:00  INFO 21232 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-25T21:51:30.858-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 21232 (C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:51:30.859-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
+2025-05-25T21:51:31.406-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-25T21:51:31.445-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 6 JPA repository interfaces.
+2025-05-25T21:51:31.993-03:00  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-25T21:51:31.995-03:00  INFO 21232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-25T21:51:31.995-03:00  INFO 21232 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2025-05-25T21:51:32.056-03:00  INFO 21232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-25T21:51:32.056-03:00  INFO 21232 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1190 ms
+2025-05-25T21:51:32.086-03:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-05-25T21:51:32.210-03:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7ca63dbd
+2025-05-25T21:51:32.211-03:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-05-25T21:51:32.211-03:00  INFO 21232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/cursodb'
+2025-05-25T21:51:32.274-03:00  INFO 21232 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-25T21:51:32.282-03:00  INFO 21232 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-25T21:51:32.309-03:00  INFO 21232 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-25T21:51:32.325-03:00  WARN 21232 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 9.5.25 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2025-05-25T21:51:32.751-03:00  INFO 21232 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-25T21:51:32.751-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       drop constraint if exists FKi5yvhrylfahu81aotf8qxjqai
+2025-05-25T21:51:32.756-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists produto 
+       drop constraint if exists FKdupgm9x214hsg0i5cpu30dj16
+2025-05-25T21:51:32.758-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       drop constraint if exists FKqxydic98aujtnowrwkeaai5o4
+2025-05-25T21:51:32.760-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       drop constraint if exists FKfpffyyqpwj6cacsy1djblhuar
+2025-05-25T21:51:32.762-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists technician 
+       drop constraint if exists FKqalpa6q6hblsw7vbvqxar173i
+2025-05-25T21:51:32.764-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists users 
+       drop constraint if exists FKd21kkcigxa21xuby5i3va9ncs
+2025-05-25T21:51:32.766-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists grupoproduto cascade
+2025-05-25T21:51:32.772-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists perfis cascade
+2025-05-25T21:51:32.775-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists person cascade
+2025-05-25T21:51:32.787-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists produto cascade
+2025-05-25T21:51:32.797-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists serviceorder cascade
+2025-05-25T21:51:32.805-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists technician cascade
+2025-05-25T21:51:32.811-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists users cascade
+2025-05-25T21:51:32.816-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_grupoproduto
+2025-05-25T21:51:32.820-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_person
+2025-05-25T21:51:32.823-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_produto
+2025-05-25T21:51:32.828-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_grupoproduto start with 1 increment by 50
+2025-05-25T21:51:32.835-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_person start with 1 increment by 50
+2025-05-25T21:51:32.845-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_produto start with 1 increment by 50
+2025-05-25T21:51:32.852-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table grupoproduto (
+        id integer not null,
+        status smallint check (status between 0 and 1),
+        descricao varchar(255) not null,
+        primary key (id)
+    )
+2025-05-25T21:51:32.870-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table perfis (
+        person_type integer,
+        person_id bigint not null
+    )
+2025-05-25T21:51:32.874-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table person (
+        create_at date,
+        id bigint not null,
+        cpf varchar(255) unique,
+        email varchar(255) unique,
+        first_name varchar(255),
+        last_name varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2025-05-25T21:51:32.910-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table produto (
+        data_cadastro date,
+        idgrupoproduto integer,
+        saldo_estoque numeric(18,3) not null,
+        status smallint check (status between 0 and 1),
+        valor_estoque numeric(18,3) not null,
+        valor_unitario numeric(18,3) not null,
+        id_produto bigint not null,
+        codigo_barra varchar(255) not null,
+        descricao varchar(255) not null,
+        primary key (id_produto)
+    )
+2025-05-25T21:51:32.931-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table serviceorder (
+        end_date date,
+        order_priority smallint check (order_priority between 0 and 2),
+        order_status smallint check (order_status between 0 and 1),
+        star_date date,
+        idtechnician bigint,
+        iduser bigint,
+        id uuid not null,
+        description varchar(255),
+        titleos varchar(255),
+        primary key (id)
+    )
+2025-05-25T21:51:32.951-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table technician (
+        person_id bigint not null,
+        primary key (person_id)
+    )
+2025-05-25T21:51:32.963-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table users (
+        person_id bigint not null,
+        primary key (person_id)
+    )
+2025-05-25T21:51:32.973-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       add constraint FKi5yvhrylfahu81aotf8qxjqai 
+       foreign key (person_id) 
+       references person
+2025-05-25T21:51:32.980-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists produto 
+       add constraint FKdupgm9x214hsg0i5cpu30dj16 
+       foreign key (idgrupoproduto) 
+       references grupoproduto
+2025-05-25T21:51:32.986-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       add constraint FKqxydic98aujtnowrwkeaai5o4 
+       foreign key (idtechnician) 
+       references technician
+2025-05-25T21:51:32.990-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       add constraint FKfpffyyqpwj6cacsy1djblhuar 
+       foreign key (iduser) 
+       references users
+2025-05-25T21:51:32.995-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists technician 
+       add constraint FKqalpa6q6hblsw7vbvqxar173i 
+       foreign key (person_id) 
+       references person
+2025-05-25T21:51:33.000-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists users 
+       add constraint FKd21kkcigxa21xuby5i3va9ncs 
+       foreign key (person_id) 
+       references person
+2025-05-25T21:51:33.006-03:00  INFO 21232 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:51:33.385-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_grupoproduto')
+2025-05-25T21:51:33.389-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        grupoproduto
+        (descricao, status, id) 
+    values
+        (?, ?, ?)
+2025-05-25T21:51:33.394-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_grupoproduto')
+2025-05-25T21:51:33.396-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        grupoproduto
+        (descricao, status, id) 
+    values
+        (?, ?, ?)
+2025-05-25T21:51:33.400-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_produto')
+2025-05-25T21:51:33.409-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:33.416-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_produto')
+2025-05-25T21:51:33.421-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:33.429-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:33.441-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:33.449-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_person')
+2025-05-25T21:51:33.455-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:33.462-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        technician
+        (person_id) 
+    values
+        (?)
+2025-05-25T21:51:33.466-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:51:33.468-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:51:33.471-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_person')
+2025-05-25T21:51:33.474-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:33.476-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (person_id) 
+    values
+        (?)
+2025-05-25T21:51:33.479-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:51:33.482-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:33.484-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (person_id) 
+    values
+        (?)
+2025-05-25T21:51:33.485-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:51:33.490-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        serviceorder
+        (description, end_date, order_priority, order_status, star_date, idtechnician, titleos, iduser, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:33.724-03:00  WARN 21232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-25T21:51:34.289-03:00  INFO 21232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-25T21:51:34.324-03:00  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-25T21:51:34.331-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 3.559 seconds (process running for 289.775)
+2025-05-25T21:51:34.340-03:00  INFO 21232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   MultipleOpenApiSupportConfiguration:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on MultipleOpenApiSupportCondition.OnActuatorDifferentPort @ConditionalOnProperty (springdoc.show-actuator) did not find property 'springdoc.show-actuator'; NestedCondition on MultipleOpenApiSupportCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 0 matched 2 did not; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupConfigProperty @ConditionalOnProperty (springdoc.group-configs[0].group) did not find property 'springdoc.group-configs[0].group'; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) did not find any beans of type org.springdoc.core.models.GroupedOpenApi (MultipleOpenApiSupportCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+         - @ConditionalOnProperty (springdoc.api-docs.enabled) matched (OnPropertyCondition)
+
+   SpringDocConfiguration#springdocBeanFactoryPostProcessor:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on CacheOrGroupedOpenApiCondition.OnCacheDisabled found non-matching nested conditions @ConditionalOnProperty (springdoc.cache.disabled) did not find property 'springdoc.cache.disabled'; NestedCondition on CacheOrGroupedOpenApiCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 0 matched 2 did not; NestedCondition on MultipleOpenApiSupportCondition.OnActuatorDifferentPort @ConditionalOnProperty (springdoc.show-actuator) did not find property 'springdoc.show-actuator'; NestedCondition on MultipleOpenApiSupportCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 0 matched 2 did not; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupConfigProperty @ConditionalOnProperty (springdoc.group-configs[0].group) did not find property 'springdoc.group-configs[0].group'; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) did not find any beans of type org.springdoc.core.models.GroupedOpenApi (CacheOrGroupedOpenApiCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.boot.context.properties.bind.BindResult' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-05-25T21:51:35.860-03:00  INFO 21232 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-05-25T21:51:35.874-03:00  INFO 21232 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:51:35.875-03:00  INFO 21232 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-05-25T21:51:35.881-03:00  INFO 21232 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-05-25T21:51:36.074-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 21232 (C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:51:36.076-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
+2025-05-25T21:51:36.907-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-25T21:51:36.950-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 6 JPA repository interfaces.
+2025-05-25T21:51:37.389-03:00  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-25T21:51:37.391-03:00  INFO 21232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-25T21:51:37.391-03:00  INFO 21232 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2025-05-25T21:51:37.459-03:00  INFO 21232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-25T21:51:37.460-03:00  INFO 21232 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1377 ms
+2025-05-25T21:51:37.490-03:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-05-25T21:51:37.623-03:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@e5ca1c9
+2025-05-25T21:51:37.623-03:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-05-25T21:51:37.623-03:00  INFO 21232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/cursodb'
+2025-05-25T21:51:37.683-03:00  INFO 21232 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-25T21:51:37.691-03:00  INFO 21232 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-25T21:51:37.712-03:00  INFO 21232 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-25T21:51:37.726-03:00  WARN 21232 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 9.5.25 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2025-05-25T21:51:38.128-03:00  INFO 21232 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-25T21:51:38.129-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       drop constraint if exists FKi5yvhrylfahu81aotf8qxjqai
+2025-05-25T21:51:38.140-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists produto 
+       drop constraint if exists FKdupgm9x214hsg0i5cpu30dj16
+2025-05-25T21:51:38.142-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       drop constraint if exists FKqxydic98aujtnowrwkeaai5o4
+2025-05-25T21:51:38.144-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       drop constraint if exists FKfpffyyqpwj6cacsy1djblhuar
+2025-05-25T21:51:38.147-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists technician 
+       drop constraint if exists FKqalpa6q6hblsw7vbvqxar173i
+2025-05-25T21:51:38.148-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists users 
+       drop constraint if exists FKd21kkcigxa21xuby5i3va9ncs
+2025-05-25T21:51:38.150-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists grupoproduto cascade
+2025-05-25T21:51:38.163-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists perfis cascade
+2025-05-25T21:51:38.171-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists person cascade
+2025-05-25T21:51:38.194-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists produto cascade
+2025-05-25T21:51:38.208-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists serviceorder cascade
+2025-05-25T21:51:38.222-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists technician cascade
+2025-05-25T21:51:38.233-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists users cascade
+2025-05-25T21:51:38.242-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_grupoproduto
+2025-05-25T21:51:38.245-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_person
+2025-05-25T21:51:38.248-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_produto
+2025-05-25T21:51:38.251-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_grupoproduto start with 1 increment by 50
+2025-05-25T21:51:38.257-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_person start with 1 increment by 50
+2025-05-25T21:51:38.265-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_produto start with 1 increment by 50
+2025-05-25T21:51:38.272-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table grupoproduto (
+        id integer not null,
+        status smallint check (status between 0 and 1),
+        descricao varchar(255) not null,
+        primary key (id)
+    )
+2025-05-25T21:51:38.287-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table perfis (
+        person_type integer,
+        person_id bigint not null
+    )
+2025-05-25T21:51:38.290-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table person (
+        create_at date,
+        id bigint not null,
+        cpf varchar(255) unique,
+        email varchar(255) unique,
+        first_name varchar(255),
+        last_name varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2025-05-25T21:51:38.324-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table produto (
+        data_cadastro date,
+        idgrupoproduto integer,
+        saldo_estoque numeric(18,3) not null,
+        status smallint check (status between 0 and 1),
+        valor_estoque numeric(18,3) not null,
+        valor_unitario numeric(18,3) not null,
+        id_produto bigint not null,
+        codigo_barra varchar(255) not null,
+        descricao varchar(255) not null,
+        primary key (id_produto)
+    )
+2025-05-25T21:51:38.344-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table serviceorder (
+        end_date date,
+        order_priority smallint check (order_priority between 0 and 2),
+        order_status smallint check (order_status between 0 and 1),
+        star_date date,
+        idtechnician bigint,
+        iduser bigint,
+        id uuid not null,
+        description varchar(255),
+        titleos varchar(255),
+        primary key (id)
+    )
+2025-05-25T21:51:38.364-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table technician (
+        person_id bigint not null,
+        primary key (person_id)
+    )
+2025-05-25T21:51:38.373-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    create table users (
+        person_id bigint not null,
+        primary key (person_id)
+    )
+2025-05-25T21:51:38.384-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       add constraint FKi5yvhrylfahu81aotf8qxjqai 
+       foreign key (person_id) 
+       references person
+2025-05-25T21:51:38.389-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists produto 
+       add constraint FKdupgm9x214hsg0i5cpu30dj16 
+       foreign key (idgrupoproduto) 
+       references grupoproduto
+2025-05-25T21:51:38.393-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       add constraint FKqxydic98aujtnowrwkeaai5o4 
+       foreign key (idtechnician) 
+       references technician
+2025-05-25T21:51:38.397-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       add constraint FKfpffyyqpwj6cacsy1djblhuar 
+       foreign key (iduser) 
+       references users
+2025-05-25T21:51:38.402-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists technician 
+       add constraint FKqalpa6q6hblsw7vbvqxar173i 
+       foreign key (person_id) 
+       references person
+2025-05-25T21:51:38.406-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists users 
+       add constraint FKd21kkcigxa21xuby5i3va9ncs 
+       foreign key (person_id) 
+       references person
+2025-05-25T21:51:38.410-03:00  INFO 21232 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:51:38.731-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_grupoproduto')
+2025-05-25T21:51:38.734-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        grupoproduto
+        (descricao, status, id) 
+    values
+        (?, ?, ?)
+2025-05-25T21:51:38.749-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_grupoproduto')
+2025-05-25T21:51:38.751-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        grupoproduto
+        (descricao, status, id) 
+    values
+        (?, ?, ?)
+2025-05-25T21:51:38.754-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_produto')
+2025-05-25T21:51:38.758-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:38.763-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_produto')
+2025-05-25T21:51:38.765-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:38.770-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:38.775-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:38.778-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_person')
+2025-05-25T21:51:38.781-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:38.785-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        technician
+        (person_id) 
+    values
+        (?)
+2025-05-25T21:51:38.788-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:51:38.791-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:51:38.797-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_person')
+2025-05-25T21:51:38.799-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:38.801-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (person_id) 
+    values
+        (?)
+2025-05-25T21:51:38.804-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:51:38.808-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:38.809-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (person_id) 
+    values
+        (?)
+2025-05-25T21:51:38.811-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T21:51:38.815-03:00 DEBUG 21232 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        serviceorder
+        (description, end_date, order_priority, order_status, star_date, idtechnician, titleos, iduser, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T21:51:38.965-03:00  WARN 21232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-25T21:51:39.332-03:00  INFO 21232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-25T21:51:39.370-03:00  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-25T21:51:39.376-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 3.373 seconds (process running for 294.82)
+2025-05-25T21:51:39.380-03:00  INFO 21232 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   MultipleOpenApiSupportConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (springdoc.api-docs.enabled) matched (OnPropertyCondition)
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on MultipleOpenApiSupportCondition.OnActuatorDifferentPort @ConditionalOnProperty (springdoc.show-actuator) did not find property 'springdoc.show-actuator'; NestedCondition on MultipleOpenApiSupportCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 1 matched 1 did not; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupConfigProperty @ConditionalOnProperty (springdoc.group-configs[0].group) did not find property 'springdoc.group-configs[0].group'; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) found bean 'publicApi' (MultipleOpenApiSupportCondition)
+
+   MultipleOpenApiSupportConfiguration#multipleOpenApiResource matched:
+      - @ConditionalOnProperty (springdoc.use-management-port=false) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springdoc.webmvc.api.MultipleOpenApiWebMvcResource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDocConfiguration#springdocBeanFactoryPostProcessor matched:
+      - @ConditionalOnClass found required class 'org.springframework.boot.context.properties.bind.BindResult' (OnClassCondition)
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on CacheOrGroupedOpenApiCondition.OnCacheDisabled found non-matching nested conditions @ConditionalOnProperty (springdoc.cache.disabled) did not find property 'springdoc.cache.disabled', @ConditionalOnMissingBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) found beans of type 'org.springdoc.core.models.GroupedOpenApi' publicApi; NestedCondition on CacheOrGroupedOpenApiCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 1 matched 1 did not; NestedCondition on MultipleOpenApiSupportCondition.OnActuatorDifferentPort @ConditionalOnProperty (springdoc.show-actuator) did not find property 'springdoc.show-actuator'; NestedCondition on MultipleOpenApiSupportCondition.OnMultipleOpenApiSupportCondition AnyNestedCondition 1 matched 1 did not; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupConfigProperty @ConditionalOnProperty (springdoc.group-configs[0].group) did not find property 'springdoc.group-configs[0].group'; NestedCondition on MultipleOpenApiGroupsCondition.OnGroupedOpenApiBean @ConditionalOnBean (types: org.springdoc.core.models.GroupedOpenApi; SearchStrategy: all) found bean 'publicApi' (CacheOrGroupedOpenApiCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-05-25T22:06:09.003-03:00  INFO 22704 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 22704 (C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Luis Mateus\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T22:06:09.009-03:00  INFO 22704 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
+2025-05-25T22:06:09.197-03:00  INFO 22704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-25T22:06:09.198-03:00  INFO 22704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-25T22:06:10.614-03:00  INFO 22704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-25T22:06:10.756-03:00  INFO 22704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122 ms. Found 6 JPA repository interfaces.
+2025-05-25T22:06:12.332-03:00  INFO 22704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-25T22:06:12.355-03:00  INFO 22704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-25T22:06:12.357-03:00  INFO 22704 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2025-05-25T22:06:12.452-03:00  INFO 22704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-25T22:06:12.453-03:00  INFO 22704 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3253 ms
+2025-05-25T22:06:12.523-03:00  INFO 22704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-25T22:06:12.828-03:00  INFO 22704 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a3ce0e6
+2025-05-25T22:06:12.831-03:00  INFO 22704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-25T22:06:12.849-03:00  INFO 22704 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/cursodb'
+2025-05-25T22:06:13.173-03:00  INFO 22704 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-25T22:06:13.299-03:00  INFO 22704 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-05-25T22:06:13.410-03:00  INFO 22704 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-25T22:06:14.255-03:00  INFO 22704 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-25T22:06:14.425-03:00  WARN 22704 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 9.5.25 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2025-05-25T22:06:17.291-03:00  INFO 22704 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-25T22:06:17.330-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       drop constraint if exists FKi5yvhrylfahu81aotf8qxjqai
+2025-05-25T22:06:17.334-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists produto 
+       drop constraint if exists FKdupgm9x214hsg0i5cpu30dj16
+2025-05-25T22:06:17.336-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       drop constraint if exists FKqxydic98aujtnowrwkeaai5o4
+2025-05-25T22:06:17.338-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       drop constraint if exists FKfpffyyqpwj6cacsy1djblhuar
+2025-05-25T22:06:17.340-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists technician 
+       drop constraint if exists FKqalpa6q6hblsw7vbvqxar173i
+2025-05-25T22:06:17.341-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists users 
+       drop constraint if exists FKd21kkcigxa21xuby5i3va9ncs
+2025-05-25T22:06:17.343-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists grupoproduto cascade
+2025-05-25T22:06:17.350-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists perfis cascade
+2025-05-25T22:06:17.353-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists person cascade
+2025-05-25T22:06:17.363-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists produto cascade
+2025-05-25T22:06:17.371-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists serviceorder cascade
+2025-05-25T22:06:17.378-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists technician cascade
+2025-05-25T22:06:17.382-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists users cascade
+2025-05-25T22:06:17.386-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_grupoproduto
+2025-05-25T22:06:17.389-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_person
+2025-05-25T22:06:17.392-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_produto
+2025-05-25T22:06:17.404-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_grupoproduto start with 1 increment by 50
+2025-05-25T22:06:17.409-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_person start with 1 increment by 50
+2025-05-25T22:06:17.414-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_produto start with 1 increment by 50
+2025-05-25T22:06:17.425-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create table grupoproduto (
+        id integer not null,
+        status smallint check (status between 0 and 1),
+        descricao varchar(255) not null,
+        primary key (id)
+    )
+2025-05-25T22:06:17.437-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create table perfis (
+        person_type integer,
+        person_id bigint not null
+    )
+2025-05-25T22:06:17.440-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create table person (
+        create_at date,
+        id bigint not null,
+        cpf varchar(255) unique,
+        email varchar(255) unique,
+        first_name varchar(255),
+        last_name varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2025-05-25T22:06:17.467-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create table produto (
+        data_cadastro date,
+        idgrupoproduto integer,
+        saldo_estoque numeric(18,3) not null,
+        status smallint check (status between 0 and 1),
+        valor_estoque numeric(18,3) not null,
+        valor_unitario numeric(18,3) not null,
+        id_produto bigint not null,
+        codigo_barra varchar(255) not null,
+        descricao varchar(255) not null,
+        primary key (id_produto)
+    )
+2025-05-25T22:06:17.484-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create table serviceorder (
+        end_date date,
+        order_priority smallint check (order_priority between 0 and 2),
+        order_status smallint check (order_status between 0 and 1),
+        star_date date,
+        idtechnician bigint,
+        iduser bigint,
+        id uuid not null,
+        description varchar(255),
+        titleos varchar(255),
+        primary key (id)
+    )
+2025-05-25T22:06:17.541-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create table technician (
+        person_id bigint not null,
+        primary key (person_id)
+    )
+2025-05-25T22:06:17.586-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    create table users (
+        person_id bigint not null,
+        primary key (person_id)
+    )
+2025-05-25T22:06:17.605-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists perfis 
+       add constraint FKi5yvhrylfahu81aotf8qxjqai 
+       foreign key (person_id) 
+       references person
+2025-05-25T22:06:17.612-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists produto 
+       add constraint FKdupgm9x214hsg0i5cpu30dj16 
+       foreign key (idgrupoproduto) 
+       references grupoproduto
+2025-05-25T22:06:17.617-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       add constraint FKqxydic98aujtnowrwkeaai5o4 
+       foreign key (idtechnician) 
+       references technician
+2025-05-25T22:06:17.622-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists serviceorder 
+       add constraint FKfpffyyqpwj6cacsy1djblhuar 
+       foreign key (iduser) 
+       references users
+2025-05-25T22:06:17.626-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists technician 
+       add constraint FKqalpa6q6hblsw7vbvqxar173i 
+       foreign key (person_id) 
+       references person
+2025-05-25T22:06:17.630-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists users 
+       add constraint FKd21kkcigxa21xuby5i3va9ncs 
+       foreign key (person_id) 
+       references person
+2025-05-25T22:06:17.638-03:00  INFO 22704 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T22:06:18.499-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_grupoproduto')
+2025-05-25T22:06:18.625-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        grupoproduto
+        (descricao, status, id) 
+    values
+        (?, ?, ?)
+2025-05-25T22:06:18.652-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_grupoproduto')
+2025-05-25T22:06:18.654-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        grupoproduto
+        (descricao, status, id) 
+    values
+        (?, ?, ?)
+2025-05-25T22:06:18.658-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_produto')
+2025-05-25T22:06:18.664-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T22:06:18.671-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_produto')
+2025-05-25T22:06:18.675-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T22:06:18.679-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T22:06:18.684-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        produto
+        (codigo_barra, data_cadastro, descricao, idgrupoproduto, saldo_estoque, status, valor_estoque, valor_unitario, id_produto) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T22:06:18.688-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_person')
+2025-05-25T22:06:18.706-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T22:06:18.711-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        technician
+        (person_id) 
+    values
+        (?)
+2025-05-25T22:06:18.720-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T22:06:18.724-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T22:06:18.729-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_person')
+2025-05-25T22:06:18.733-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T22:06:18.735-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (person_id) 
+    values
+        (?)
+2025-05-25T22:06:18.739-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T22:06:18.746-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        person
+        (cpf, create_at, email, first_name, last_name, password, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-05-25T22:06:18.748-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (person_id) 
+    values
+        (?)
+2025-05-25T22:06:18.750-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        perfis
+        (person_id, person_type) 
+    values
+        (?, ?)
+2025-05-25T22:06:18.757-03:00 DEBUG 22704 --- [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        serviceorder
+        (description, end_date, order_priority, order_status, star_date, idtechnician, titleos, iduser, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-05-25T22:06:19.280-03:00  WARN 22704 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-25T22:06:20.533-03:00  INFO 22704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-25T22:06:20.640-03:00  INFO 22704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-25T22:06:20.667-03:00  INFO 22704 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 12.793 seconds (process running for 16.143)
+2025-05-25T22:06:25.192-03:00  INFO 22704 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-25T22:06:25.193-03:00  INFO 22704 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-25T22:06:25.195-03:00  INFO 22704 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-25T22:06:28.217-03:00  INFO 22704 --- [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1469 ms
+2025-05-25T22:08:07.865-03:00  INFO 22704 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T22:08:07.872-03:00  INFO 22704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-25T22:08:07.879-03:00  INFO 22704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-25T23:47:46.198-03:00  INFO 24548 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 24548 (C:\Users\kaio.monteiro\Desktop\Escopo\suporteos\target\classes started by KAIO MONTEIRO in C:\Users\kaio.monteiro\Desktop\Escopo\suporteos)
+2025-05-25T23:47:46.209-03:00  INFO 24548 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
+2025-05-25T23:47:46.343-03:00  INFO 24548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-25T23:47:46.344-03:00  INFO 24548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-25T23:47:47.528-03:00  INFO 24548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-25T23:47:47.674-03:00  INFO 24548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 6 JPA repository interfaces.
+2025-05-25T23:47:49.512-03:00  INFO 24548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-25T23:47:49.540-03:00  INFO 24548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-25T23:47:49.541-03:00  INFO 24548 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2025-05-25T23:47:49.659-03:00  INFO 24548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-25T23:47:49.660-03:00  INFO 24548 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3315 ms
+2025-05-25T23:47:49.725-03:00  INFO 24548 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-25T23:47:51.522-03:00  INFO 24548 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-25T23:47:51.699-03:00  INFO 24548 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-05-25T23:47:51.781-03:00  INFO 24548 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-25T23:47:52.355-03:00  INFO 24548 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-25T23:47:52.401-03:00  INFO 24548 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-25T23:47:53.488-03:00  WARN 24548 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:290) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
+	at com.curso.suporteos.SuporteosApplication.main(SuporteosApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.3.jar:3.3.3]
+
+2025-05-25T23:47:53.497-03:00 ERROR 24548 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-05-25T23:47:53.498-03:00  WARN 24548 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-05-25T23:47:53.505-03:00  INFO 24548 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-25T23:47:53.525-03:00  INFO 24548 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-25T23:47:53.559-03:00 ERROR 24548 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
+	at com.curso.suporteos.SuporteosApplication.main(SuporteosApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.3.jar:3.3.3]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 18 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:152) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:362) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	... 33 common frames omitted
+
