@@ -3,7 +3,7 @@
 2025-05-25T21:44:53.244-03:00  INFO 20840 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-25T21:44:53.266-03:00  INFO 20840 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-05-25T21:44:53.559-03:00  INFO 20840 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-05-25T21:45:39.896-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 20840 (C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:45:39.896-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 20840 (C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
 2025-05-25T21:45:39.898-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
 2025-05-25T21:45:40.382-03:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2025-05-25T21:45:40.389-03:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
@@ -31,7 +31,7 @@
 2025-05-25T21:46:00.141-03:00  INFO 20840 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-25T21:46:00.142-03:00  INFO 20840 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
 2025-05-25T21:46:00.152-03:00  INFO 20840 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
-2025-05-25T21:46:00.380-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 20840 (C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:46:00.380-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 20840 (C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
 2025-05-25T21:46:00.381-03:00  INFO 20840 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
 2025-05-25T21:46:00.931-03:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2025-05-25T21:46:00.985-03:00  INFO 20840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
@@ -99,7 +99,7 @@ Caused by: java.lang.ClassNotFoundException: io.swagger.v3.oas.models.OpenAPI
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
 	... 40 common frames omitted
 
-2025-05-25T21:46:49.632-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 21232 (C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:46:49.632-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 21232 (C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
 2025-05-25T21:46:49.639-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
 2025-05-25T21:46:49.896-03:00  INFO 21232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2025-05-25T21:46:49.897-03:00  INFO 21232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -403,7 +403,7 @@ Caused by: java.lang.ClassNotFoundException: io.swagger.v3.oas.models.OpenAPI
 2025-05-25T21:51:30.629-03:00  INFO 21232 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-25T21:51:30.635-03:00  INFO 21232 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-05-25T21:51:30.642-03:00  INFO 21232 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-05-25T21:51:30.858-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 21232 (C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:51:30.858-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 21232 (C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
 2025-05-25T21:51:30.859-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
 2025-05-25T21:51:31.406-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2025-05-25T21:51:31.445-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 6 JPA repository interfaces.
@@ -744,7 +744,7 @@ Unconditional classes:
 2025-05-25T21:51:35.874-03:00  INFO 21232 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-25T21:51:35.875-03:00  INFO 21232 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
 2025-05-25T21:51:35.881-03:00  INFO 21232 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2025-05-25T21:51:36.074-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 21232 (C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T21:51:36.074-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 21232 (C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
 2025-05-25T21:51:36.076-03:00  INFO 21232 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
 2025-05-25T21:51:36.907-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2025-05-25T21:51:36.950-03:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 6 JPA repository interfaces.
@@ -1081,7 +1081,7 @@ Unconditional classes:
 
 
 
-2025-05-25T22:06:09.003-03:00  INFO 22704 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 22704 (C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
+2025-05-25T22:06:09.003-03:00  INFO 22704 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 22704 (C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos\target\classes started by User in C:\Users\User\Desktop\Kaio.Monteiro\fef\04 - quarto-semestre\LABORATÓRIO DE PROGRAMAÇÃO IV\suporteos)
 2025-05-25T22:06:09.009-03:00  INFO 22704 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
 2025-05-25T22:06:09.197-03:00  INFO 22704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2025-05-25T22:06:09.198-03:00  INFO 22704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -1384,7 +1384,7 @@ Unconditional classes:
 2025-05-25T22:08:07.865-03:00  INFO 22704 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-25T22:08:07.872-03:00  INFO 22704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-05-25T22:08:07.879-03:00  INFO 22704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-05-25T23:47:46.198-03:00  INFO 24548 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 24548 (C:\Users\kaio.monteiro\Desktop\Escopo\suporteos\target\classes started by KAIO MONTEIRO in C:\Users\kaio.monteiro\Desktop\Escopo\suporteos)
+2025-05-25T23:47:46.198-03:00  INFO 24548 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 21.0.6 with PID 24548 (C:\Users\kaio.monteiro\Desktop\Escopo\suporteos\target\classes started by Kaio.Monteiro in C:\Users\kaio.monteiro\Desktop\Escopo\suporteos)
 2025-05-25T23:47:46.209-03:00  INFO 24548 --- [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
 2025-05-25T23:47:46.343-03:00  INFO 24548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2025-05-25T23:47:46.344-03:00  INFO 24548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
